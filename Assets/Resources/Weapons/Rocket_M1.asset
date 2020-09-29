@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1691a40447d96a449b45e1c9b150ee3b, type: 3}
+  m_Name: Rocket_M1
+  m_EditorClassIdentifier: 
+  WeaponName: RocketM1
+  shotSFX:
+  - {fileID: 8300000, guid: c759b55461d69414abb92a5563f50eab, type: 3}
+  - {fileID: 8300000, guid: dc2a88a64c63bd7409fb483da439c8f4, type: 3}
+  - {fileID: 8300000, guid: 3b6c9c681e3bb7c4cb6cae5b393405b1, type: 3}
+  - {fileID: 8300000, guid: 2fa47439d8f9a8843bd507d8abf7e3ed, type: 3}
+  - {fileID: 8300000, guid: 36d1b97b7238f3b4b9231670d33b1935, type: 3}
+  - {fileID: 8300000, guid: ee3b2db49f2bb1a4690a8063eb998bb3, type: 3}
+  impactSFX:
+  - {fileID: 8300000, guid: d6b248510d141b441ac1f1e2cbf1747c, type: 3}
+  - {fileID: 8300000, guid: 65d7fdf0a676c7f4aa32749e2c616592, type: 3}
+  - {fileID: 8300000, guid: cdaf63a7596a471439b25c91e1592cc0, type: 3}
+  - {fileID: 8300000, guid: b8843876ca7fb3d4a8276cfa02b96942, type: 3}
+  - {fileID: 8300000, guid: d2d44c4b37b33c44d9af9119dd9f1189, type: 3}
+  - {fileID: 8300000, guid: 90acc7bfbcf981f4b893297e6465f406, type: 3}
+  - {fileID: 8300000, guid: e836e283b2fe88a48b51cc9551f39f64, type: 3}
+  - {fileID: 8300000, guid: a831c3b0a30cf544d944e8f7ab0065c5, type: 3}
+  - {fileID: 8300000, guid: 593d2415ead40b146b3e0a23d362d0c9, type: 3}
+  projMesh: {fileID: -8670151273213183110, guid: f5d4396b58de67f41b68f1cfb0a4750e,
+    type: 3}
+  projMaterial: {fileID: 2100000, guid: 1af761587fe82aa4187333769d9e66ca, type: 2}
+  impactEffect: {fileID: 11400000, guid: 1b1c57ad13971764e8df99db345b70fd, type: 2}
+  type: 64
+  clipSize: 10
+  impact: 20
+  damage: 20
+  rpm: 200
+  reloadTime: 1.8
+  maxTravel: 800
+  projSpeed: 200
+  projSize: {x: 0.6, y: 0.6, z: 1}
+  physSize: 0.8
+  projTrailLength: 0.1
+  burstCount: 1
+  burstDelay: 0.1
+  pelletCount: 1
+  mainSpread: 0
+  pelletSpread: 0

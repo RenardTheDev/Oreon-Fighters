@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1691a40447d96a449b45e1c9b150ee3b, type: 3}
+  m_Name: Minigun
+  m_EditorClassIdentifier: 
+  WeaponName: Minigun
+  shotSFX:
+  - {fileID: 8300000, guid: 2152e4d1d73ed1347873139877e668f9, type: 3}
+  - {fileID: 8300000, guid: 19ac8ca9977021b41817cb28516e7ca8, type: 3}
+  - {fileID: 8300000, guid: 6e3cf940b754bf142907d540a965ac7a, type: 3}
+  - {fileID: 8300000, guid: d3afff8f0885c384298527471de3f387, type: 3}
+  - {fileID: 8300000, guid: 56a4d43f9045ac248adfc2fdeccffd7a, type: 3}
+  - {fileID: 8300000, guid: ca06b4d9c124e5c42bed512bfb2014dc, type: 3}
+  impactSFX:
+  - {fileID: 8300000, guid: b97e34f3aeab80a4694d1a089e9a7389, type: 3}
+  - {fileID: 8300000, guid: ea1cb5986862027488ed3f2f3b537724, type: 3}
+  - {fileID: 8300000, guid: 6b1c602891ab0ed45bd7ee0a6ceebedb, type: 3}
+  - {fileID: 8300000, guid: a60d8ed55a01cc24086defea01c8b290, type: 3}
+  - {fileID: 8300000, guid: 17f08eae45836d24f8d9bc7c6262cdcc, type: 3}
+  - {fileID: 8300000, guid: 7b8c6410c47e52347819885d14d47607, type: 3}
+  - {fileID: 8300000, guid: 72ea8844109624043b80c4e1d0784731, type: 3}
+  - {fileID: 8300000, guid: 868c6eb671f9912429798ef8347a0eb0, type: 3}
+  - {fileID: 8300000, guid: 7a7f5f65c74240446a2d5e5cc6d8711a, type: 3}
+  projMesh: {fileID: -8670151273213183110, guid: f5d4396b58de67f41b68f1cfb0a4750e,
+    type: 3}
+  projMaterial: {fileID: 2100000, guid: 483c1705cc4055e4ab1df84753229175, type: 2}
+  impactEffect: {fileID: 11400000, guid: 8edf1578d54cd484d91e7df0585b6fb5, type: 2}
+  type: 64
+  clipSize: 10
+  impact: 20
+  damage: 1
+  rpm: 800
+  reloadTime: 1.8
+  maxTravel: 1400
+  projSpeed: 300
+  projSize: {x: 0.3, y: 0.3, z: 1}
+  physSize: 0.4
+  projTrailLength: 0.1
+  burstCount: 1
+  burstDelay: 0.1
+  pelletCount: 1
+  mainSpread: 2
+  pelletSpread: 0
